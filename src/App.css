@@ -1,0 +1,38 @@
+.App{
+    background-color: #464a53;
+    min-height: 100vh;
+}
+.all-card{
+    gap: 40px;
+}
+
+.card{
+    background-color: #464a53;
+    border: 1px solid #464a53;
+    border-radius: 0;
+    color: #fff;
+    width: 100px !important;
+    height: 12vh !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#searchBar{
+    background-color: #fff;
+    border-radius: 20px;
+    height: 7vh !important;
+}
+
+@media (max-width: 600px) {
+    .header{
+        display: flex;
+        flex-direction: column !important ;
+        width: 100% !important;
+        align-items: center;
+    }
+
+    #searchBar{
+        width: 100% !important;
+        height: 6vh !important;
+    }
+    
+}
