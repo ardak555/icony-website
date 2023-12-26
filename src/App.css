@@ -19,8 +19,53 @@
 #searchBar{
     background-color: #fff;
     border-radius: 20px;
-    height: 7vh !important;
+    height: 30px !important;
 }
+
+/* .general-usage-card{
+    display: none;
+} */
+
+.info-intro{
+    width: 50% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+.usage-card {
+    width: 70%; /* Adjust the width as needed */
+    height: 70vh !important;
+    background-color: #fff !important;
+    border-radius: 20px;
+    position: fixed; /* Use fixed positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    top: 50%; /* Center vertically at 50% from the top */
+    left: 50%; /* Center horizontally at 50% from the left */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.3);
+}
+
+
+ .icon-area{
+        width: 50% !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+ }
 
 @media (max-width: 600px) {
     .header{
@@ -32,7 +77,9 @@
 
     #searchBar{
         width: 100% !important;
-        height: 6vh !important;
+        height: 20px !important;
     }
+
+
     
 }
